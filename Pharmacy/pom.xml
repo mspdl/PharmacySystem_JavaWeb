@@ -6,18 +6,17 @@
 	<artifactId>Pharmacy</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
-	
+
 	<!-- Characters codification -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	
+
 	<!-- Execution Parameters -->
 	<build>
-		<!-- Packaged Project Name  -->
+		<!-- Packaged Project Name -->
 		<finalName>Pharmacy</finalName>
 
-		<!-- Plugins -->
 		<plugins>
 			<!-- Compilator -->
 			<plugin>
@@ -31,5 +30,13 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
+	<dependencies>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.2.16.Final</version>
+		</dependency>
+	</dependencies>
+
 </project>

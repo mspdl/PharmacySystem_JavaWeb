@@ -1,0 +1,22 @@
+package com.pharmacy.util;
+
+import org.hibernate.SessionFactory;
+
+public class HibernateUtil {
+	
+	private static SessionFactory sessionFactory;
+	
+	public static SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+	
+	public static SessionFactory createSessionFactory() {
+		try {
+			
+		} catch (Throwable ex) {
+			// Make sure you log the exception, as it might be swallowed
+			System.err.println("Initial SessionFactory creation failed. " + ex);
+		}
+	}
+
+}

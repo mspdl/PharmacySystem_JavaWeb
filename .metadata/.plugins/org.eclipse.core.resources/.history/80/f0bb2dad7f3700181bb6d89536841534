@@ -1,0 +1,17 @@
+package com.pharmacy.domain;
+
+import java.io.Serializable;
+
+public class GenericDomain implements Serializable {
+
+	private long code;
+
+	public long getCode() {
+		return code;
+	}
+
+	public void setCode(long code) {
+		this.code = code;
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.pharmacy.domain;
+
+import javax.persistence.Column;
+
+@SuppressWarnings("serial")
+public class Manufacturer extends GenericDomain {
+	
+	@Column(length = 200, nullable = false)
+	private String description;
+
+}

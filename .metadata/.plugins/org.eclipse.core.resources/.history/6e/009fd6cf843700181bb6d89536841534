@@ -33,7 +33,7 @@
 		<property name="hbm2ddl.auto">create</property>
 		
 		<!-- Entity Mapping -->
-		<mapping class="com.pharmacy.domain.State" />
+		<mapping class="com.pharmacy.domain.State"/>
 
 	</session-factory>
 

@@ -31,9 +31,6 @@
 
 		<!-- Drop and re-create the database schema on startup -->
 		<property name="hbm2ddl.auto">create</property>
-		
-		<!-- Entity Mapping -->
-		<mapping class="com.pharmacy.domain.State" />
 
 	</session-factory>
 

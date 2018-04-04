@@ -1,0 +1,11 @@
+package com.pharmacy.domain;
+
+public class State extends GenericDomain {
+	
+	private String abbreviation;
+	private String name;
+	
+	
+
+
+}

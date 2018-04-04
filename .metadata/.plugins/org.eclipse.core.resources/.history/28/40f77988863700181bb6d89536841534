@@ -15,13 +15,11 @@ public class HibernateUtil {
 
 	public static SessionFactory createSessionFactory() {
 		try {
-			Configuration configuration = new Configuration().configure(); // search for configurations in the
-																			// hibernate.cfg.xml file
-			ServiceRegistry register = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties())
-					.build();
-
+			Configuration configuration = new Configuration().configure(); // search for configurations in the hibernate.cfg.xml file
+			ServiceRegistry register = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
+			
 			SessionFactory factory = configuration.buildSessionFactory();
-
+			
 			return factory;
 
 		} catch (Throwable ex) {

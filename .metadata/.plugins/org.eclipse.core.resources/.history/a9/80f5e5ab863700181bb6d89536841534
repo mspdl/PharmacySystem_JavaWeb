@@ -20,7 +20,7 @@ public class HibernateUtil {
 			ServiceRegistry register = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties())
 					.build();
 
-			SessionFactory factory = configuration.buildSessionFactory();
+			SessionFactory factory = configuration.buildSessionFactory(register);
 
 			return factory;
 

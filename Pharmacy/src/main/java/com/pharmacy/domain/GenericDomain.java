@@ -13,14 +13,15 @@ public class GenericDomain implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long code;
+	private long id;
 
-	public long getCode() {
-		return code;
+	public long getId() {
+		return id;
 	}
 
-	public void setCode(long code) {
-		this.code = code;
+	public void setId(long id) {
+		this.id = id;
 	}
+
 
 }

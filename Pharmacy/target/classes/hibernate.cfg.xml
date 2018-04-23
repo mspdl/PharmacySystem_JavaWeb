@@ -35,6 +35,7 @@
 		<!-- Entity Mapping -->
 		<mapping class="com.pharmacy.domain.City" />
 		<mapping class="com.pharmacy.domain.Client" />
+		<mapping class="com.pharmacy.domain.Employee" />
 		<mapping class="com.pharmacy.domain.Manufacturer" />
 		<mapping class="com.pharmacy.domain.Person" />
 		<mapping class="com.pharmacy.domain.Product" />

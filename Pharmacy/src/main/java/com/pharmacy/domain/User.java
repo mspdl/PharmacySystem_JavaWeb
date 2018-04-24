@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
+@SuppressWarnings("serial")
 @Entity
 public class User extends GenericDomain {
 

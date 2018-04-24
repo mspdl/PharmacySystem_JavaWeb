@@ -1,9 +1,0 @@
-package com.pharmacy.domain;
-
-import java.io.Serializable;
-
-public class GenericDomain implements Serializable {
-	
-	
-
-}

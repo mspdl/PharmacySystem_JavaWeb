@@ -1,9 +1,0 @@
-package com.pharmacy.main;
-
-public class HibernateUtilTest {
-	
-	public static void main(String[] args) {
-		
-	}
-
-}

@@ -39,6 +39,7 @@
 		<mapping class="com.pharmacy.domain.Manufacturer" />
 		<mapping class="com.pharmacy.domain.Person" />
 		<mapping class="com.pharmacy.domain.Product" />
+		<mapping class="com.pharmacy.domain.Sale" />
 		<mapping class="com.pharmacy.domain.State" />
 		<mapping class="com.pharmacy.domain.User" />
 

@@ -1,9 +1,0 @@
-package com.pharmacy.util;
-
-public class HibernateUtilTest {
-	
-	public void connect() {
-		
-	}
-
-}
